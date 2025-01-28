@@ -96,6 +96,12 @@ exit
 cd nuxtpj
 ```
 
+permission deniedエラーが出ることがありますので下記実行
+
+```bash
+sudo chown -R $(whoami) ./node_modules
+```
+
 2. 必要なパッケージをインストール
 
 ```bash
